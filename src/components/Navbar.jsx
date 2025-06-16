@@ -21,6 +21,7 @@ const Navbar = () => {
           <>
             <Link to="/dashboard">Dashboard</Link>
             <Link to="/profile">Profile</Link>
+            <Link to="/tasks">Tasks</Link>
             <span>Welcome, {user?.name}</span>
             <button onClick={handleLogout}>Logout</button>
           </>
